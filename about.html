@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="About GoHotel - Learn Our Story">
+    <title>GoHotel - About Us</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="font-[Poppins] bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full z-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <a href="index.html" class="text-2xl font-bold text-gray-800">GoHotel</a>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="text-gray-800 hover:text-gray-600">Home</a>
+                    <a href="about.html" class="text-gray-800 hover:text-gray-600">About</a>
+                    <a href="gallery.html" class="text-gray-800 hover:text-gray-600">Gallery</a>
+                    <a href="main_feature.html" class="text-gray-800 hover:text-gray-600">Features</a>
+                    <a href="contact.html" class="text-gray-800 hover:text-gray-600">Contact</a>
+                </div>
+                <div class="md:hidden flex items-center">
+                    <button class="mobile-menu-button">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile menu -->
+        <div class="mobile-menu hidden md:hidden">
+            <a href="index.html" class="block py-2 px-4 text-sm hover:bg-gray-100">Home</a>
+            <a href="about.html" class="block py-2 px-4 text-sm hover:bg-gray-100">About</a>
+            <a href="gallery.html" class="block py-2 px-4 text-sm hover:bg-gray-100">Gallery</a>
+            <a href="main_feature.html" class="block py-2 px-4 text-sm hover:bg-gray-100">Features</a>
+            <a href="contact.html" class="block py-2 px-4 text-sm hover:bg-gray-100">Contact</a>
+        </div>
+    </nav>
+
+    <!-- About Hero Section -->
+    <div class="relative pt-16">
+        <div class="absolute inset-0">
+            <img class="w-full h-[400px] object-cover" src="https://images.pexels.com/photos/338504/pexels-photo-338504.jpeg" alt="Hotel Lobby">
+            <div class="absolute inset-0 bg-gray-900 opacity-40"></div>
+        </div>
+        <div class="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
+            <h1 class="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">About GoHotel</h1>
+            <p class="mt-6 text-xl text-white max-w-3xl">Discover our story of excellence in hospitality</p>
+        </div>
+    </div>
+
+    <!-- Our Story Section -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+                <h2 class="text-3xl font-bold text-gray-900 mb-6">Our Story</h2>
+                <p class="text-gray-600 mb-4">Founded in 2010, GoHotel has been at the forefront of luxury hospitality, providing exceptional experiences to our guests from around the world.</p>
+                <p class="text-gray-600 mb-4">Our commitment to excellence, attention to detail, and passionate service have earned us recognition as one of the leading hotel chains in the industry.</p>
+                <p class="text-gray-600">We believe in creating memorable stays that combine comfort, luxury, and authentic local experiences for our guests.</p>
+            </div>
+            <div>
+                <img src="https://images.pexels.com/photos/261156/pexels-photo-261156.jpeg" alt="Hotel Interior" class="rounded-lg shadow-xl">
+            </div>
+        </div>
+    </div>
+
+    <!-- Our Values Section -->
+    <div class="bg-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-gray-900 text-center mb-12">Our Values</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Value 1 -->
+                <div class="text-center">
+                    <div class="bg-gray-100 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-10 h-10 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Excellence</h3>
+                    <p class="text-gray-600">We strive for excellence in every aspect of our service.</p>
+                </div>
+
+                <!-- Value 2 -->
+                <div class="text-center">
+                    <div class="bg-gray-100 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-10 h-10 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Hospitality</h3>
+                    <p class="text-gray-600">Genuine care and comfort for our guests.</p>
+                </div>
+
+                <!-- Value 3 -->
+                <div class="text-center">
+                    <div class="bg-gray-100 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-10 h-10 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Innovation</h3>
+                    <p class="text-gray-600">Continuously improving our services and facilities.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900">
+        <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-white text-lg font-semibold mb-4">About GoHotel</h3>
+                    <p class="text-gray-400">Your perfect stay awaits at GoHotel. Experience luxury, comfort, and exceptional service.</p>
+                </div>
+                <div>
+                    <h3 class="text-white text-lg font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="about.html" class="text-gray-400 hover:text-white">About Us</a></li>
+                        <li><a href="gallery.html" class="text-gray-400 hover:text-white">Gallery</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-white text-lg font-semibold mb-4">Contact Us</h3>
+                    <p class="text-gray-400">Email: info@gohotel.com</p>
+                    <p class="text-gray-400">Phone: +1 (555) 123-4567</p>
+                </div>
+            </div>
+            <div class="mt-8 border-t border-gray-800 pt-8">
+                <p class="text-gray-400 text-center">&copy; 2024 GoHotel. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

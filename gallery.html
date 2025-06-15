@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="GoHotel Gallery - View Our Luxurious Accommodations">
+    <title>GoHotel - Gallery</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="font-[Poppins] bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full z-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <a href="index.html" class="text-2xl font-bold text-gray-800">GoHotel</a>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="text-gray-800 hover:text-gray-600">Home</a>
+                    <a href="about.html" class="text-gray-800 hover:text-gray-600">About</a>
+                    <a href="gallery.html" class="text-gray-800 hover:text-gray-600">Gallery</a>
+                    <a href="main_feature.html" class="text-gray-800 hover:text-gray-600">Features</a>
+                    <a href="contact.html" class="text-gray-800 hover:text-gray-600">Contact</a>
+                </div>
+                <div class="md:hidden flex items-center">
+                    <button class="mobile-menu-button">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile menu -->
+        <div class="mobile-menu hidden md:hidden">
+            <a href="index.html" class="block py-2 px-4 text-sm hover:bg-gray-100">Home</a>
+            <a href="about.html" class="block py-2 px-4 text-sm hover:bg-gray-100">About</a>
+            <a href="gallery.html" class="block py-2 px-4 text-sm hover:bg-gray-100">Gallery</a>
+            <a href="main_feature.html" class="block py-2 px-4 text-sm hover:bg-gray-100">Features</a>
+            <a href="contact.html" class="block py-2 px-4 text-sm hover:bg-gray-100">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Gallery Header -->
+    <div class="pt-16 pb-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+            <h1 class="text-4xl font-bold text-gray-900 text-center mb-4">Our Gallery</h1>
+            <p class="text-gray-600 text-center max-w-2xl mx-auto">Explore our luxurious rooms, elegant facilities, and stunning views through our carefully curated gallery.</p>
+        </div>
+    </div>
+
+    <!-- Gallery Grid -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Gallery Item 1 -->
+            <div class="gallery-item relative overflow-hidden rounded-lg shadow-lg group">
+                <img src="https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg" alt="Luxury Suite" 
+                    class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110">
+                <div class="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                    <div class="text-white text-center p-4">
+                        <h3 class="text-xl font-semibold mb-2">Luxury Suite</h3>
+                        <p>Experience ultimate comfort</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Gallery Item 2 -->
+            <div class="gallery-item relative overflow-hidden rounded-lg shadow-lg group">
+                <img src="https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg" alt="Swimming Pool" 
+                    class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110">
+                <div class="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                    <div class="text-white text-center p-4">
+                        <h3 class="text-xl font-semibold mb-2">Swimming Pool</h3>
+                        <p>Relax and unwind</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Gallery Item 3 -->
+            <div class="gallery-item relative overflow-hidden rounded-lg shadow-lg group">
+                <img src="https://images.pexels.com/photos/262047/pexels-photo-262047.jpeg" alt="Restaurant" 
+                    class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110">
+                <div class="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                    <div class="text-white text-center p-4">
+                        <h3 class="text-xl font-semibold mb-2">Restaurant</h3>
+                        <p>Fine dining experience</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Gallery Item 4 -->
+            <div class="gallery-item relative overflow-hidden rounded-lg shadow-lg group">
+                <img src="https://images.pexels.com/photos/189296/pexels-photo-189296.jpeg" alt="Deluxe Room" 
+                    class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110">
+                <div class="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                    <div class="text-white text-center p-4">
+                        <h3 class="text-xl font-semibold mb-2">Deluxe Room</h3>
+                        <p>Elegant comfort</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Gallery Item 5 -->
+            <div class="gallery-item relative overflow-hidden rounded-lg shadow-lg group">
+                <img src="https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg" alt="Conference Room" 
+                    class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110">
+                <div class="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                    <div class="text-white text-center p-4">
+                        <h3 class="text-xl font-semibold mb-2">Conference Room</h3>
+                        <p>Professional meetings</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Gallery Item 6 -->
+            <div class="gallery-item relative overflow-hidden rounded-lg shadow-lg group">
+                <img src="https://images.pexels.com/photos/261156/pexels-photo-261156.jpeg" alt="Spa" 
+                    class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110">
+                <div class="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                    <div class="text-white text-center p-4">
+                        <h3 class="text-xl font-semibold mb-2">Spa</h3>
+                        <p>Rejuvenate yourself</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900">
+        <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-white text-lg font-semibold mb-4">About GoHotel</h3>
+                    <p class="text-gray-400">Your perfect stay awaits at GoHotel. Experience luxury, comfort, and exceptional service.</p>
+                </div>
+                <div>
+                    <h3 class="text-white text-lg font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="about.html" class="text-gray-400 hover:text-white">About Us</a></li>
+                        <li><a href="gallery.html" class="text-gray-400 hover:text-white">Gallery</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-white text-lg font-semibold mb-4">Contact Us</h3>
+                    <p class="text-gray-400">Email: info@gohotel.com</p>
+                    <p class="text-gray-400">Phone: +1 (555) 123-4567</p>
+                </div>
+            </div>
+            <div class="mt-8 border-t border-gray-800 pt-8">
+                <p class="text-gray-400 text-center">&copy; 2024 GoHotel. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
